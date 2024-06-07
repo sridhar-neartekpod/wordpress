@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="max-image-preview:large" />
-    <title>Sample Page &#8211; Jacana</title>
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Jacana &raquo; Feed"
-      href="https://wordpress-ntp.netlify.app/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Jacana &raquo; Comments Feed"
-      href="https://wordpress-ntp.netlify.app/comments/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Jacana &raquo; Sample Page Comments Feed"
-      href="https://wordpress-ntp.netlify.app/sample-page/feed/"
-    />
-    <script>
-      window._wpemojiSettings = {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="max-image-preview:large">
+    <title>root &#8211; Jacana</title>
+    <link rel="alternate" type="application/rss+xml" title="Jacana &raquo; Feed" href="https://wordpress-ntp.netlify.app/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Jacana &raquo; Comments Feed" href="https://wordpress-ntp.netlify.app/comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Jacana &raquo; Posts by root Feed" href="https://wordpress-ntp.netlify.app/author/root/feed/">
+    <script>window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
         ext: ".png",
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
@@ -164,10 +148,8 @@
                   ? t(e.concatemoji)
                   : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
             }));
-      })((window, document), window._wpemojiSettings);
-    </script>
-    <style id="wp-block-site-logo-inline-css">
-      .wp-block-site-logo {
+      })((window, document), window._wpemojiSettings);</script>
+    <style id="wp-block-site-logo-inline-css">.wp-block-site-logo {
         box-sizing: border-box;
         line-height: 0;
       }
@@ -194,20 +176,14 @@
       }
       .wp-block-site-logo.is-style-rounded {
         border-radius: 9999px;
-      }
-    </style>
-    <style id="wp-block-site-title-inline-css">
-      .wp-block-site-title a {
+      }</style>
+    <style id="wp-block-site-title-inline-css">.wp-block-site-title a {
         color: inherit;
-      }
-    </style>
-    <style id="wp-block-group-inline-css">
-      .wp-block-group {
+      }</style>
+    <style id="wp-block-group-inline-css">.wp-block-group {
         box-sizing: border-box;
-      }
-    </style>
-    <style id="wp-block-navigation-link-inline-css">
-      .wp-block-navigation .wp-block-navigation-item__label {
+      }</style>
+    <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label {
         overflow-wrap: break-word;
       }
       .wp-block-navigation .wp-block-navigation-item__description {
@@ -238,30 +214,50 @@
         vertical-align: middle;
         text-decoration: none;
         display: inline-block;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      id="wp-block-navigation-css"
-      href="https://wordpress-ntp.netlify.app/wp-includes/blocks/navigation/style.min.css?ver=6.5.3"
-      media="all"
-    />
-    <style id="wp-block-spacer-inline-css">
-      .wp-block-spacer {
-        clear: both;
-      }
-    </style>
-    <style id="wp-block-post-title-inline-css">
-      .wp-block-post-title {
+      }</style>
+    <link rel="stylesheet" id="wp-block-navigation-css" href="https://wordpress-ntp.netlify.app/wp-includes/blocks/navigation/style.min.css?ver=6.5.3" media="all">
+    <style id="wp-block-query-title-inline-css">.wp-block-query-title {
         box-sizing: border-box;
-        word-break: break-word;
+      }</style>
+    <style id="wp-block-paragraph-inline-css">.is-small-text {
+        font-size: 0.875em;
       }
-      .wp-block-post-title a {
-        display: inline-block;
+      .is-regular-text {
+        font-size: 1em;
       }
-    </style>
-    <style id="wp-block-post-featured-image-inline-css">
-      .wp-block-post-featured-image {
+      .is-large-text {
+        font-size: 2.25em;
+      }
+      .is-larger-text {
+        font-size: 3em;
+      }
+      .has-drop-cap:not(:focus):first-letter {
+        float: left;
+        font-size: 8.4em;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 0.68;
+        margin: 0.05em 0.1em 0 0;
+        text-transform: uppercase;
+      }
+      body.rtl .has-drop-cap:not(:focus):first-letter {
+        float: none;
+        margin-left: 0.1em;
+      }
+      p.has-drop-cap.has-background {
+        overflow: hidden;
+      }
+      p.has-background {
+        padding: 1.25em 2.375em;
+      }
+      :where(p.has-text-color:not(.has-link-color)) a {
+        color: inherit;
+      }
+      p.has-text-align-left[style*="writing-mode:vertical-lr"],
+      p.has-text-align-right[style*="writing-mode:vertical-rl"] {
+        rotate: 180deg;
+      }</style>
+    <style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image {
         margin-left: 0;
         margin-right: 0;
       }
@@ -339,77 +335,158 @@
       }
       .wp-block-post-featured-image:where(.alignleft, .alignright) {
         width: 100%;
-      }
-    </style>
-    <style id="wp-block-paragraph-inline-css">
-      .is-small-text {
-        font-size: 0.875em;
-      }
-      .is-regular-text {
-        font-size: 1em;
-      }
-      .is-large-text {
-        font-size: 2.25em;
-      }
-      .is-larger-text {
-        font-size: 3em;
-      }
-      .has-drop-cap:not(:focus):first-letter {
-        float: left;
-        font-size: 8.4em;
-        font-style: normal;
-        font-weight: 100;
-        line-height: 0.68;
-        margin: 0.05em 0.1em 0 0;
-        text-transform: uppercase;
-      }
-      body.rtl .has-drop-cap:not(:focus):first-letter {
-        float: none;
-        margin-left: 0.1em;
-      }
-      p.has-drop-cap.has-background {
-        overflow: hidden;
-      }
-      p.has-background {
-        padding: 1.25em 2.375em;
-      }
-      :where(p.has-text-color:not(.has-link-color)) a {
-        color: inherit;
-      }
-      p.has-text-align-left[style*="writing-mode:vertical-lr"],
-      p.has-text-align-right[style*="writing-mode:vertical-rl"] {
-        rotate: 180deg;
-      }
-    </style>
-    <style id="wp-block-quote-inline-css">
-      .wp-block-quote {
+      }</style>
+    <style id="wp-block-post-title-inline-css">.wp-block-post-title {
         box-sizing: border-box;
-        overflow-wrap: break-word;
+        word-break: break-word;
       }
-      .wp-block-quote.is-large:where(:not(.is-style-plain)),
-      .wp-block-quote.is-style-large:where(:not(.is-style-plain)) {
-        margin-bottom: 1em;
-        padding: 0 1em;
+      .wp-block-post-title a {
+        display: inline-block;
+      }</style>
+    <style id="wp-block-post-date-inline-css">.wp-block-post-date {
+        box-sizing: border-box;
+      }</style>
+    <style id="wp-block-post-terms-inline-css">.wp-block-post-terms {
+        box-sizing: border-box;
       }
-      .wp-block-quote.is-large:where(:not(.is-style-plain)) p,
-      .wp-block-quote.is-style-large:where(:not(.is-style-plain)) p {
-        font-size: 1.5em;
-        font-style: italic;
-        line-height: 1.6;
+      .wp-block-post-terms .wp-block-post-terms__separator {
+        white-space: pre-wrap;
       }
-      .wp-block-quote.is-large:where(:not(.is-style-plain)) cite,
-      .wp-block-quote.is-large:where(:not(.is-style-plain)) footer,
-      .wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,
-      .wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer {
-        font-size: 1.125em;
-        text-align: right;
+
+      .is-style-pill a,
+      .is-style-pill span:not([class], [data-rich-text-placeholder]) {
+        display: inline-block;
+        background-color: var(--wp--preset--color--base-2);
+        padding: 0.375rem 0.875rem;
+        border-radius: var(--wp--preset--spacing--20);
       }
-      .wp-block-quote > cite {
-        display: block;
+
+      .is-style-pill a:hover {
+        background-color: var(--wp--preset--color--contrast-3);
+      }</style>
+    <style id="wp-block-post-excerpt-inline-css">:where(.wp-block-post-excerpt) {
+        margin-bottom: var(--wp--style--block-gap);
+        margin-top: var(--wp--style--block-gap);
       }
-    </style>
-    <style id="wp-block-heading-inline-css">
-      h1.has-background,
+      .wp-block-post-excerpt__excerpt {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .wp-block-post-excerpt__more-text {
+        margin-bottom: 0;
+        margin-top: var(--wp--style--block-gap);
+      }
+      .wp-block-post-excerpt__more-link {
+        display: inline-block;
+      }</style>
+    <style id="wp-block-spacer-inline-css">.wp-block-spacer {
+        clear: both;
+      }</style>
+    <style id="wp-block-post-template-inline-css">.wp-block-post-template {
+        list-style: none;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 100%;
+        padding: 0;
+      }
+      .wp-block-post-template.wp-block-post-template {
+        background: none;
+      }
+      .wp-block-post-template.is-flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.25em;
+      }
+      .wp-block-post-template.is-flex-container > li {
+        margin: 0;
+        width: 100%;
+      }
+      @media (min-width: 600px) {
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-2
+          > li {
+          width: calc(50% - 0.625em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-3
+          > li {
+          width: calc(33.33333% - 0.83333em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-4
+          > li {
+          width: calc(25% - 0.9375em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-5
+          > li {
+          width: calc(20% - 1em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-6
+          > li {
+          width: calc(16.66667% - 1.04167em);
+        }
+      }
+      @media (max-width: 600px) {
+        .wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .wp-block-post-template-is-layout-constrained > li > .alignright,
+      .wp-block-post-template-is-layout-flow > li > .alignright {
+        float: right;
+        margin-inline-end: 0;
+        margin-inline-start: 2em;
+      }
+      .wp-block-post-template-is-layout-constrained > li > .alignleft,
+      .wp-block-post-template-is-layout-flow > li > .alignleft {
+        float: left;
+        margin-inline-end: 2em;
+        margin-inline-start: 0;
+      }
+      .wp-block-post-template-is-layout-constrained > li > .aligncenter,
+      .wp-block-post-template-is-layout-flow > li > .aligncenter {
+        margin-inline-end: auto;
+        margin-inline-start: auto;
+      }</style>
+    <style id="wp-block-query-pagination-inline-css">.wp-block-query-pagination > .wp-block-query-pagination-next,
+      .wp-block-query-pagination > .wp-block-query-pagination-numbers,
+      .wp-block-query-pagination > .wp-block-query-pagination-previous {
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
+      }
+      .wp-block-query-pagination > .wp-block-query-pagination-next:last-child,
+      .wp-block-query-pagination
+        > .wp-block-query-pagination-numbers:last-child,
+      .wp-block-query-pagination
+        > .wp-block-query-pagination-previous:last-child {
+        margin-right: 0;
+      }
+      .wp-block-query-pagination.is-content-justification-space-between
+        > .wp-block-query-pagination-next:last-of-type {
+        margin-inline-start: auto;
+      }
+      .wp-block-query-pagination.is-content-justification-space-between
+        > .wp-block-query-pagination-previous:first-child {
+        margin-inline-end: auto;
+      }
+      .wp-block-query-pagination .wp-block-query-pagination-previous-arrow {
+        display: inline-block;
+        margin-right: 1ch;
+      }
+      .wp-block-query-pagination
+        .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron) {
+        transform: scaleX(1);
+      }
+      .wp-block-query-pagination .wp-block-query-pagination-next-arrow {
+        display: inline-block;
+        margin-left: 1ch;
+      }
+      .wp-block-query-pagination
+        .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron) {
+        transform: scaleX(1);
+      }
+      .wp-block-query-pagination.aligncenter {
+        justify-content: center;
+      }</style>
+    <style id="wp-block-heading-inline-css">h1.has-background,
       h2.has-background,
       h3.has-background,
       h4.has-background,
@@ -486,10 +563,8 @@
 
       .rtl .is-style-asterisk.has-text-align-left:before {
         margin-right: auto;
-      }
-    </style>
-    <style id="wp-block-columns-inline-css">
-      .wp-block-columns {
+      }</style>
+    <style id="wp-block-columns-inline-css">.wp-block-columns {
         align-items: normal !important;
         box-sizing: border-box;
         display: flex;
@@ -563,10 +638,8 @@
       .wp-block-column.is-vertically-aligned-center,
       .wp-block-column.is-vertically-aligned-top {
         width: 100%;
-      }
-    </style>
-    <style id="wp-emoji-styles-inline-css">
-      img.wp-smiley,
+      }</style>
+    <style id="wp-emoji-styles-inline-css">img.wp-smiley,
       img.emoji {
         display: inline !important;
         border: none !important;
@@ -577,10 +650,8 @@
         vertical-align: -0.1em !important;
         background: none !important;
         padding: 0 !important;
-      }
-    </style>
-    <style id="wp-block-library-inline-css">
-      :root {
+      }</style>
+    <style id="wp-block-library-inline-css">:root {
         --wp-admin-theme-color: #007cba;
         --wp-admin-theme-color--rgb: 0, 124, 186;
         --wp-admin-theme-color-darker-10: #006ba1;
@@ -753,10 +824,8 @@
         html :where(.is-position-sticky) {
           --wp-admin--admin-bar--position-offset: 0px;
         }
-      }
-    </style>
-    <style id="global-styles-inline-css">
-      body {
+      }</style>
+    <style id="global-styles-inline-css">body {
         --wp--preset--color--black: #000000;
         --wp--preset--color--cyan-bluish-gray: #abb8c3;
         --wp--preset--color--white: #ffffff;
@@ -1539,10 +1608,42 @@
       .wp-block-navigation a:where(:not(.wp-element-button)):hover {
         text-decoration: underline;
       }
+      .wp-block-post-author-name {
+        font-size: var(--wp--preset--font-size--small);
+      }
+      .wp-block-post-author-name a:where(:not(.wp-element-button)) {
+        text-decoration: none;
+      }
+      .wp-block-post-author-name a:where(:not(.wp-element-button)):hover {
+        text-decoration: underline;
+      }
+      .wp-block-post-date {
+        color: var(--wp--preset--color--contrast-2);
+        font-size: var(--wp--preset--font-size--small);
+      }
+      .wp-block-post-date a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--contrast-2);
+        text-decoration: none;
+      }
+      .wp-block-post-date a:where(:not(.wp-element-button)):hover {
+        text-decoration: underline;
+      }
+      .wp-block-post-excerpt {
+        line-height: 1.6;
+      }
       .wp-block-post-featured-image img,
       .wp-block-post-featured-image .block-editor-media-placeholder,
       .wp-block-post-featured-image .wp-block-post-featured-image__overlay {
         border-radius: var(--wp--preset--spacing--20);
+      }
+      .wp-block-post-terms {
+        font-size: var(--wp--preset--font-size--small);
+      }
+      .wp-block-post-terms a:where(:not(.wp-element-button)) {
+        text-decoration: none;
+      }
+      .wp-block-post-terms a:where(:not(.wp-element-button)):hover {
+        text-decoration: underline;
       }
       .wp-block-post-title a:where(:not(.wp-element-button)) {
         text-decoration: none;
@@ -1550,37 +1651,8 @@
       .wp-block-post-title a:where(:not(.wp-element-button)):hover {
         text-decoration: underline;
       }
-      .wp-block-quote {
-        background-color: var(--wp--preset--color--base-2);
-        border-radius: var(--wp--preset--spacing--20);
-        font-family: var(--wp--preset--font-family--heading);
-        font-size: var(--wp--preset--font-size--large);
-        font-style: italic;
-        line-height: 1.3;
-        padding-top: calc(var(--wp--preset--spacing--30) + 0.75rem);
-        padding-right: calc(var(--wp--preset--spacing--30) + 0.75rem);
-        padding-bottom: calc(var(--wp--preset--spacing--30) + 0.75rem);
-        padding-left: calc(var(--wp--preset--spacing--30) + 0.75rem);
-      }
-      .wp-block-quote.is-style-plain {
-        background-color: transparent;
-        border-radius: 0;
-        border-color: var(--wp--preset--color--contrast);
-        border-width: 0;
-        border-style: solid;
-        font-family: var(--wp--preset--font-family--body);
-        font-size: var(--wp--preset--font-size--medium);
-        font-style: normal;
-        line-height: 1.5;
-        padding-top: var(--wp--preset--spacing--20);
-        padding-right: var(--wp--preset--spacing--20);
-        padding-bottom: var(--wp--preset--spacing--20);
-        padding-left: var(--wp--preset--spacing--20);
-      }
-      .wp-block-quote cite {
-        font-family: var(--wp--preset--font-family--body);
-        font-size: var(--wp--preset--font-size--small);
-        font-style: normal;
+      .wp-block-query-no-results {
+        padding-top: var(--wp--preset--spacing--30);
       }
       .wp-block-site-tagline {
         color: var(--wp--preset--color--contrast-2);
@@ -1681,10 +1753,8 @@
           .alignwide
         ):not(.alignfull) {
         width: var(--wp--preset--spacing--60);
-      }
-    </style>
-    <style id="core-block-supports-inline-css">
-      .wp-container-core-group-is-layout-1.wp-container-core-group-is-layout-1
+      }</style>
+    <style id="core-block-supports-inline-css">.wp-container-core-group-is-layout-1.wp-container-core-group-is-layout-1
         > * {
         margin-block-start: 0;
         margin-block-end: 0;
@@ -1708,7 +1778,30 @@
       .wp-container-core-group-is-layout-4.wp-container-core-group-is-layout-4 {
         justify-content: space-between;
       }
+      .wp-container-content-2 {
+        flex-basis: min(2.5rem, 3vw);
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6 {
+        gap: 0.3em;
+        justify-content: flex-start;
+      }
+      .wp-container-content-3 {
+        flex-basis: min(2.5rem, 3vw);
+      }
+      .wp-container-content-4 {
+        flex-basis: min(2.5rem, 3vw);
+      }
       .wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8 {
+        flex-wrap: nowrap;
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-post-template-is-layout-1.wp-container-core-post-template-is-layout-1 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: var(--wp--preset--spacing--30);
+      }
+      .wp-container-core-group-is-layout-11.wp-container-core-group-is-layout-11 {
         flex-direction: column;
         align-items: flex-start;
       }
@@ -1717,12 +1810,12 @@
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9 {
+      .wp-container-core-group-is-layout-12.wp-container-core-group-is-layout-12 {
         gap: var(--wp--preset--spacing--10);
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-10.wp-container-core-group-is-layout-10 {
+      .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13 {
         flex-direction: column;
         align-items: stretch;
       }
@@ -1731,12 +1824,12 @@
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-11.wp-container-core-group-is-layout-11 {
+      .wp-container-core-group-is-layout-14.wp-container-core-group-is-layout-14 {
         gap: var(--wp--preset--spacing--10);
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-12.wp-container-core-group-is-layout-12 {
+      .wp-container-core-group-is-layout-15.wp-container-core-group-is-layout-15 {
         flex-direction: column;
         align-items: stretch;
       }
@@ -1745,16 +1838,16 @@
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13 {
+      .wp-container-core-group-is-layout-16.wp-container-core-group-is-layout-16 {
         gap: var(--wp--preset--spacing--10);
         flex-direction: column;
         align-items: flex-start;
       }
-      .wp-container-core-group-is-layout-14.wp-container-core-group-is-layout-14 {
+      .wp-container-core-group-is-layout-17.wp-container-core-group-is-layout-17 {
         flex-direction: column;
         align-items: stretch;
       }
-      .wp-container-core-group-is-layout-15.wp-container-core-group-is-layout-15 {
+      .wp-container-core-group-is-layout-18.wp-container-core-group-is-layout-18 {
         justify-content: space-between;
         align-items: flex-start;
       }
@@ -1764,10 +1857,8 @@
       .wp-elements-69a005592d8de9c85f5c3744bd9a4e03
         a:where(:not(.wp-element-button)) {
         color: var(--wp--preset--color--contrast);
-      }
-    </style>
-    <style id="wp-block-template-skip-link-inline-css">
-      .skip-link.screen-reader-text {
+      }</style>
+    <style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
         border: 0;
         clip: rect(1px, 1px, 1px, 1px);
         clip-path: inset(50%);
@@ -1795,41 +1886,12 @@
         top: 5px;
         width: auto;
         z-index: 100000;
-      }
-    </style>
-    <link
-      rel="https://api.w.org/"
-      href="https://wordpress-ntp.netlify.app/wp-json/"
-    />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="https://wordpress-ntp.netlify.app/wp-json/wp/v2/pages/2"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="https://wordpress-ntp.netlify.app/xmlrpc.php?rsd"
-    />
-    <meta name="generator" content="WordPress 6.5.3" />
-    <link
-      rel="canonical"
-      href="https://wordpress-ntp.netlify.app/sample-page/"
-    />
-    <link rel="shortlink" href="https://wordpress-ntp.netlify.app/?p=2" />
-    <link
-      rel="alternate"
-      type="application/json+oembed"
-      href="https://wordpress-ntp.netlify.app/wp-json/oembed/1.0/embed?url=%2Fsample-page%2F"
-    />
-    <link
-      rel="alternate"
-      type="text/xml+oembed"
-      href="https://wordpress-ntp.netlify.app/wp-json/oembed/1.0/embed?url=%2Fsample-page%2F#038;format=xml"
-    />
-    <script>
-      (function () {
+      }</style>
+    <link rel="https://api.w.org/" href="https://wordpress-ntp.netlify.app/wp-json/">
+    <link rel="alternate" type="application/json" href="https://wordpress-ntp.netlify.app/wp-json/wp/v2/users/1">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wordpress-ntp.netlify.app/xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.5.3">
+    <script>(function () {
         window.onpageshow = function (event) {
           // Defined window.wpforms means that a form exists on a page.
           // If so and back/forward button has been clicked,
@@ -1838,8 +1900,7 @@
             window.location.reload();
           }
         };
-      })();
-    </script>
+      })();</script>
     <script id="wp-load-polyfill-importmap">
       (HTMLScriptElement.supports && HTMLScriptElement.supports("importmap")) ||
         document.write(
@@ -1847,25 +1908,14 @@
             "ipt>"
         );
     </script>
-    <script type="importmap" id="wp-importmap">
-      {
+    <script type="importmap" id="wp-importmap">{
         "imports": {
           "@wordpress\/interactivity": "\/wp-includes\/js\/dist\/interactivity.min.js?ver=6.5.3"
         }
-      }
-    </script>
-    <script
-      type="module"
-      src="https://wordpress-ntp.netlify.app/wp-includes/blocks/navigation/view.min.js?ver=6.5.3"
-      id="@wordpress/block-library/navigation-js-module"
-    ></script>
-    <link
-      rel="modulepreload"
-      href="https://wordpress-ntp.netlify.app/wp-includes/js/dist/interactivity.min.js?ver=6.5.3"
-      id="@wordpress/interactivity-js-modulepreload"
-    />
-    <style id="wp-fonts-local">
-      @font-face {
+      }</script>
+    <script type="module" src="https://wordpress-ntp.netlify.app/wp-includes/blocks/navigation/view.min.js?ver=6.5.3" id="@wordpress/block-library/navigation-js-module"></script>
+    <link rel="modulepreload" href="https://wordpress-ntp.netlify.app/wp-includes/js/dist/interactivity.min.js?ver=6.5.3" id="@wordpress/interactivity-js-modulepreload">
+    <style id="wp-fonts-local">@font-face {
         font-family: Inter;
         font-style: normal;
         font-weight: 300 900;
@@ -1897,28 +1947,12 @@
         font-display: fallback;
         src: url("https://wordpress-ntp.netlify.app/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2")
           format("woff2");
-      }
-    </style>
-    <link
-      rel="icon"
-      href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="/wp-content/uploads/2024/06/auth0.png"
-    />
-    <style id="wpforms-css-vars-root">
-      :root {
+      }</style>
+    <link rel="icon" href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png" sizes="32x32">
+    <link rel="icon" href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png">
+    <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/06/auth0.png">
+    <style id="wpforms-css-vars-root">:root {
         --wpforms-field-border-radius: 3px;
         --wpforms-field-border-style: solid;
         --wpforms-field-border-size: 1px;
@@ -1967,157 +2001,52 @@
         --wpforms-button-size-padding-h: 15px;
         --wpforms-button-size-margin-top: 10px;
         --wpforms-container-shadow-size-box-shadow: none;
-      }
-    </style>
+      }</style>
   </head>
 
-  <body
-    class="page-template-default page page-id-2 wp-custom-logo wp-embed-responsive"
-  >
+  <body class="archive author author-root author-1 wp-custom-logo wp-embed-responsive">
     <div class="wp-site-blocks">
       <header class="wp-block-template-part">
-        <div
-          class="wp-block-group alignwide has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
-          style="padding-top: 20px; padding-bottom: 20px"
-        >
-          <div
-            class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-4 wp-block-group-is-layout-flex"
-          >
-            <div
-              class="wp-block-group is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex"
-            >
+        <div class="wp-block-group alignwide has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top: 20px; padding-bottom: 20px">
+          <div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-4 wp-block-group-is-layout-flex">
+            <div class="wp-block-group is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex">
               <div class="wp-block-site-logo">
-                <a
-                  href="https://wordpress-ntp.netlify.app/"
-                  class="custom-logo-link"
-                  rel="home"
-                  ><img
-                    width="50"
-                    height="55"
-                    src="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png"
-                    class="custom-logo"
-                    alt="Jacana"
-                    decoding="async"
-                /></a>
+                <a href="https://wordpress-ntp.netlify.app/" class="custom-logo-link" rel="home"><img width="50" height="55" src="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png" class="custom-logo" alt="Jacana" decoding="async"></a>
               </div>
 
-              <div
-                class="wp-block-group is-layout-flow wp-container-core-group-is-layout-1 wp-block-group-is-layout-flow"
-              >
+              <div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-1 wp-block-group-is-layout-flow">
                 <p class="wp-block-site-title">
                   <a target="_self" rel="home">Jacana</a>
                 </p>
               </div>
             </div>
 
-            <div
-              class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3 wp-block-group-is-layout-flex"
-            >
-              <nav
-                class="is-responsive items-justified-right wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-1 wp-block-navigation-is-layout-flex"
-                aria-label="Navigation"
-                data-wp-interactive="core/navigation"
-                data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'
-              >
-                <button
-                  aria-haspopup="dialog"
-                  aria-label="Open menu"
-                  class="wp-block-navigation__responsive-container-open"
-                  data-wp-on--click="actions.openMenuOnClick"
-                  data-wp-on--keydown="actions.handleMenuKeydown"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewbox="0 0 24 24"
-                    aria-hidden="true"
-                    focusable="false"
-                  >
+            <div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3 wp-block-group-is-layout-flex">
+              <nav class="is-responsive items-justified-right wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-1 wp-block-navigation-is-layout-flex" aria-label="Navigation" data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'>
+                <button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" data-wp-on--click="actions.openMenuOnClick" data-wp-on--keydown="actions.handleMenuKeydown">
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false">
                     <rect x="4" y="7.5" width="16" height="1.5"></rect>
                     <rect x="4" y="15" width="16" height="1.5"></rect>
                   </svg>
                 </button>
-                <div
-                  class="wp-block-navigation__responsive-container"
-                  id="modal-1"
-                  data-wp-class--has-modal-open="state.isMenuOpen"
-                  data-wp-class--is-menu-open="state.isMenuOpen"
-                  data-wp-watch="callbacks.initMenu"
-                  data-wp-on--keydown="actions.handleMenuKeydown"
-                  data-wp-on--focusout="actions.handleMenuFocusout"
-                  tabindex="-1"
-                >
-                  <div
-                    class="wp-block-navigation__responsive-close"
-                    tabindex="-1"
-                  >
-                    <div
-                      class="wp-block-navigation__responsive-dialog"
-                      data-wp-bind--aria-modal="state.ariaModal"
-                      data-wp-bind--aria-label="state.ariaLabel"
-                      data-wp-bind--role="state.roleAttribute"
-                    >
-                      <button
-                        aria-label="Close menu"
-                        class="wp-block-navigation__responsive-container-close"
-                        data-wp-on--click="actions.closeMenuOnClick"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewbox="0 0 24 24"
-                          width="24"
-                          height="24"
-                          aria-hidden="true"
-                          focusable="false"
-                        >
-                          <path
-                            d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
-                          ></path>
+                <div class="wp-block-navigation__responsive-container" id="modal-1" data-wp-class--has-modal-open="state.isMenuOpen" data-wp-class--is-menu-open="state.isMenuOpen" data-wp-watch="callbacks.initMenu" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--focusout="actions.handleMenuFocusout" tabindex="-1">
+                  <div class="wp-block-navigation__responsive-close" tabindex="-1">
+                    <div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="state.ariaModal" data-wp-bind--aria-label="state.ariaLabel" data-wp-bind--role="state.roleAttribute">
+                      <button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on--click="actions.closeMenuOnClick">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                          <path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path>
                         </svg>
                       </button>
-                      <div
-                        class="wp-block-navigation__responsive-container-content"
-                        data-wp-watch="callbacks.focusFirstElement"
-                        id="modal-1-content"
-                      >
-                        <ul
-                          class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation"
-                        >
-                          <li
-                            class="wp-block-navigation-item current-menu-item wp-block-navigation-link"
-                          >
-                            <a
-                              class="wp-block-navigation-item__content"
-                              href="https://wordpress-ntp.netlify.app/sample-page/"
-                              aria-current="page"
-                              ><span class="wp-block-navigation-item__label"
-                                >Home</span
-                              ></a
-                            >
+                      <div class="wp-block-navigation__responsive-container-content" data-wp-watch="callbacks.focusFirstElement" id="modal-1-content">
+                        <ul class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation">
+                          <li class="wp-block-navigation-item wp-block-navigation-link">
+                            <a class="wp-block-navigation-item__content" href="https://wordpress-ntp.netlify.app/sample-page/"><span class="wp-block-navigation-item__label">Home</span></a>
                           </li>
-                          <li
-                            class="wp-block-navigation-item current-menu-item wp-block-navigation-link"
-                          >
-                            <a
-                              class="wp-block-navigation-item__content"
-                              href="https://wordpress-ntp.netlify.app/sample-page/"
-                              aria-current="page"
-                              ><span class="wp-block-navigation-item__label"
-                                >About Us</span
-                              ></a
-                            >
+                          <li class="wp-block-navigation-item wp-block-navigation-link">
+                            <a class="wp-block-navigation-item__content" href="https://wordpress-ntp.netlify.app/sample-page/"><span class="wp-block-navigation-item__label">About Us</span></a>
                           </li>
-                          <li
-                            class="wp-block-navigation-item wp-block-navigation-link"
-                          >
-                            <a
-                              class="wp-block-navigation-item__content"
-                              href="https://wordpress-ntp.netlify.app/contact-us/"
-                              ><span class="wp-block-navigation-item__label"
-                                >Contact Us</span
-                              ></a
-                            >
+                          <li class="wp-block-navigation-item wp-block-navigation-link">
+                            <a class="wp-block-navigation-item__content" href="https://wordpress-ntp.netlify.app/contact-us/"><span class="wp-block-navigation-item__label">Contact Us</span></a>
                           </li>
                         </ul>
                       </div>
@@ -2130,105 +2059,77 @@
         </div>
       </header>
 
-      <main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-        <div
-          class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
-        >
-          <div
-            style="height: var(--wp--preset--spacing--50)"
-            aria-hidden="true"
-            class="wp-block-spacer"
-          ></div>
+      <main class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+        <h1 style="padding-top: var(--wp--preset--spacing--50); line-height: 1" class="alignwide wp-block-query-title">
+          Author: <span>root</span>
+        </h1>
 
-          <h1 class="has-text-align-center wp-block-post-title">Sample Page</h1>
-
-          <div
-            style="
-              margin-top: 0;
+        <div class="wp-block-query alignwide is-layout-flow wp-block-query-is-layout-flow">
+          <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top: 0;
               margin-bottom: 0;
-              height: var(--wp--preset--spacing--30);
-            "
-            aria-hidden="true"
-            class="wp-block-spacer"
-          ></div>
-        </div>
+              padding-top: var(--wp--preset--spacing--50);
+              padding-right: 0;
+              padding-bottom: var(--wp--preset--spacing--50);
+              padding-left: 0;">
+            <ul class="columns-3 alignfull wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-grid">
+              <li class="wp-block-post post-1 post type-post status-publish format-standard hentry category-uncategorized">
+                <div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex" style="margin-top: var(--wp--preset--spacing--20);
+                    padding-top: 0;">
+                  <h2 class="wp-block-post-title has-large-font-size wp-container-content-2">
+                    <a href="https://wordpress-ntp.netlify.app/2024/06/04/hello-world/" target="_self">Hello world!</a>
+                  </h2>
 
-        <div
-          class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained"
-        >
-          <p>
-            This is an example page. It&#8217;s different from a blog post
-            because it will stay in one place and will show up in your site
-            navigation (in most themes). Most people start with an About page
-            that introduces them to potential site visitors. It might say
-            something like this:
-          </p>
+                  <div class="wp-block-template-part">
+                    <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                      <div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+                        <div class="wp-block-post-date">
+                          <time datetime="2024-06-04T07:18:27+00:00"><a href="https://wordpress-ntp.netlify.app/2024/06/04/hello-world/">Jun 4, 2024</a></time>
+                        </div>
 
-          <blockquote
-            class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-          >
-            <p>
-              Hi there! I&#8217;m a bike messenger by day, aspiring actor by
-              night, and this is my website. I live in Los Angeles, have a great
-              dog named Jack, and I like pi&#241;a coladas. (And gettin&#8217;
-              caught in the rain.)
-            </p>
-          </blockquote>
+                        <p class="has-contrast-2-color has-text-color">—</p>
 
-          <p>&#8230;or something like this:</p>
+                        <p class="has-small-font-size has-contrast-2-color has-text-color">
+                          by
+                        </p>
 
-          <blockquote
-            class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-          >
-            <p>
-              The XYZ Doohickey Company was founded in 1971, and has been
-              providing quality doohickeys to the public ever since. Located in
-              Gotham City, XYZ employs over 2,000 people and does all kinds of
-              awesome things for the Gotham community.
-            </p>
-          </blockquote>
+                        <div class="wp-block-post-author-name">
+                          <a href="https://wordpress-ntp.netlify.app/author/root/" target="_self" class="wp-block-post-author-name__link">root</a>
+                        </div>
 
-          <p>
-            As a new WordPress user, you should go to
-            <a href="https://wordpress-ntp.netlify.app/wp-admin/"
-              >your dashboard</a
-            >
-            to delete this page and create new pages for your content. Have fun!
-          </p>
+                        <div class="taxonomy-category wp-block-post-terms">
+                          <span class="wp-block-post-terms__prefix">in </span><a href="https://wordpress-ntp.netlify.app/category/uncategorized/" rel="tag">Uncategorized</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="has-text-color has-contrast-2-color wp-block-post-excerpt has-small-font-size wp-container-content-3">
+                    <p class="wp-block-post-excerpt__excerpt">
+                      Welcome to WordPress. This is your first post. Edit or
+                      delete it, then start writing!
+                    </p>
+                  </div>
+
+                  <div style="height: 0px" aria-hidden="true" class="wp-block-spacer wp-container-content-4"></div>
+                </div>
+              </li>
+            </ul>
+
+            <div style="margin-top: 0;
+                margin-bottom: 0;
+                height: var(--wp--preset--spacing--40);" aria-hidden="true" class="wp-block-spacer"></div>
+          </div>
         </div>
       </main>
 
       <footer class="wp-block-template-part">
-        <div
-          class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
-          style="
-            padding-top: var(--wp--preset--spacing--50);
-            padding-bottom: var(--wp--preset--spacing--50);
-          "
-        >
-          <div
-            class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex"
-          >
-            <div
-              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
-              style="flex-basis: 30%"
-            >
-              <div
-                class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex"
-              >
+        <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top: var(--wp--preset--spacing--50);
+            padding-bottom: var(--wp--preset--spacing--50);">
+          <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 30%">
+              <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-11 wp-block-group-is-layout-flex">
                 <div class="wp-block-site-logo">
-                  <a
-                    href="https://wordpress-ntp.netlify.app/"
-                    class="custom-logo-link"
-                    rel="home"
-                    ><img
-                      width="20"
-                      height="22"
-                      src="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png"
-                      class="custom-logo"
-                      alt="Jacana"
-                      decoding="async"
-                  /></a>
+                  <a href="https://wordpress-ntp.netlify.app/" class="custom-logo-link" rel="home"><img loading="lazy" width="20" height="22" src="https://wordpress-ntp.netlify.app/wp-content/uploads/2024/06/auth0.png" class="custom-logo" alt="Jacana" decoding="async"></a>
                 </div>
 
                 <p class="wp-block-site-title has-medium-font-size">
@@ -2237,174 +2138,70 @@
               </div>
             </div>
 
-            <div
-              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
-              style="flex-basis: 20%"
-            ></div>
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 20%"></div>
 
-            <div
-              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
-              style="flex-basis: 50%"
-            >
-              <div
-                class="wp-block-group is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-15 wp-block-group-is-layout-flex"
-              >
-                <div
-                  class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-10 wp-block-group-is-layout-flex"
-                >
-                  <h2
-                    class="wp-block-heading has-medium-font-size has-body-font-family"
-                    style="font-style: normal; font-weight: 600"
-                  >
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 50%">
+              <div class="wp-block-group is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-18 wp-block-group-is-layout-flex">
+                <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-13 wp-block-group-is-layout-flex">
+                  <h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style: normal; font-weight: 600">
                     About
                   </h2>
 
-                  <div
-                    class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-9 wp-block-group-is-layout-flex"
-                  >
-                    <nav
-                      style="font-style: normal; font-weight: 400"
-                      class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-2 wp-block-navigation-is-layout-flex"
-                      aria-label="About"
-                    >
-                      <ul
-                        style="font-style: normal; font-weight: 400"
-                        class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size"
-                      >
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Team</span
-                            ></a
-                          >
+                  <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-12 wp-block-group-is-layout-flex">
+                    <nav style="font-style: normal; font-weight: 400" class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-2 wp-block-navigation-is-layout-flex" aria-label="About">
+                      <ul style="font-style: normal; font-weight: 400" class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size">
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Team</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >History</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">History</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Careers</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Careers</span></a>
                         </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
 
-                <div
-                  class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-12 wp-block-group-is-layout-flex"
-                >
-                  <h2
-                    class="wp-block-heading has-medium-font-size has-body-font-family"
-                    style="font-style: normal; font-weight: 600"
-                  >
+                <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-15 wp-block-group-is-layout-flex">
+                  <h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style: normal; font-weight: 600">
                     Privacy
                   </h2>
 
-                  <div
-                    class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-11 wp-block-group-is-layout-flex"
-                  >
-                    <nav
-                      style="font-style: normal; font-weight: 400"
-                      class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-3 wp-block-navigation-is-layout-flex"
-                      aria-label="Privacy"
-                    >
-                      <ul
-                        style="font-style: normal; font-weight: 400"
-                        class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size"
-                      >
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Privacy Policy</span
-                            ></a
-                          >
+                  <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-14 wp-block-group-is-layout-flex">
+                    <nav style="font-style: normal; font-weight: 400" class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-3 wp-block-navigation-is-layout-flex" aria-label="Privacy">
+                      <ul style="font-style: normal; font-weight: 400" class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size">
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Privacy Policy</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Terms and Conditions</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Terms and Conditions</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Contact Us</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Contact Us</span></a>
                         </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
 
-                <div
-                  class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-14 wp-block-group-is-layout-flex"
-                >
-                  <h2
-                    class="wp-block-heading has-medium-font-size has-body-font-family"
-                    style="font-style: normal; font-weight: 600"
-                  >
+                <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-17 wp-block-group-is-layout-flex">
+                  <h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style: normal; font-weight: 600">
                     Social
                   </h2>
 
-                  <div
-                    class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-13 wp-block-group-is-layout-flex"
-                  >
-                    <nav
-                      style="font-style: normal; font-weight: 400"
-                      class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-4 wp-block-navigation-is-layout-flex"
-                      aria-label="Social Media"
-                    >
-                      <ul
-                        style="font-style: normal; font-weight: 400"
-                        class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size"
-                      >
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Facebook</span
-                            ></a
-                          >
+                  <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-16 wp-block-group-is-layout-flex">
+                    <nav style="font-style: normal; font-weight: 400" class="has-small-font-size is-vertical wp-block-navigation has-small-font-size is-layout-flex wp-container-core-navigation-is-layout-4 wp-block-navigation-is-layout-flex" aria-label="Social Media">
+                      <ul style="font-style: normal; font-weight: 400" class="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation has-small-font-size">
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Facebook</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Instagram</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Instagram</span></a>
                         </li>
-                        <li
-                          class="has-small-font-size wp-block-navigation-item wp-block-navigation-link"
-                        >
-                          <a class="wp-block-navigation-item__content" href="#"
-                            ><span class="wp-block-navigation-item__label"
-                              >Twitter/X</span
-                            ></a
-                          >
+                        <li class="has-small-font-size wp-block-navigation-item wp-block-navigation-link">
+                          <a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Twitter/X</span></a>
                         </li>
                       </ul>
                     </nav>
@@ -2414,16 +2211,9 @@
             </div>
           </div>
 
-          <div
-            class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow"
-            style="
-              padding-top: var(--wp--preset--spacing--50);
-              padding-bottom: 0;
-            "
-          >
-            <p
-              class="has-contrast-2-color has-text-color has-link-color has-small-font-size wp-elements-69a005592d8de9c85f5c3744bd9a4e03"
-            >
+          <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="padding-top: var(--wp--preset--spacing--50);
+              padding-bottom: 0;">
+            <p class="has-contrast-2-color has-text-color has-link-color has-small-font-size wp-elements-69a005592d8de9c85f5c3744bd9a4e03">
               Designed with
               <a href="https://wordpress.org/" rel="nofollow">WordPress</a>
             </p>
@@ -2431,8 +2221,7 @@
         </div>
       </footer>
     </div>
-    <script id="wp-block-template-skip-link-js-after">
-      (function () {
+    <script id="wp-block-template-skip-link-js-after">(function () {
         var skipLinkTarget = document.querySelector("main"),
           sibling,
           skipLinkTargetID,
@@ -2469,7 +2258,6 @@
 
         // Inject the skip link.
         sibling.parentElement.insertBefore(skipLink, sibling);
-      })();
-    </script>
-  </body>
+      })();</script>
+  
 </html>
