@@ -262,7 +262,7 @@ class Url_Extractor {
 		$response_body = preg_replace( '/(https?:)?\/\/' . addcslashes( Util::origin_host(), '/' ) . '/i', $destination_url, $response_body );
 
 		// replace wp_json_encode'd urls, as used by WP's `concatemoji`.
-		// e.g. {"concatemoji":"http:\/\/www.example.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}.
+		// e.g. {"concatemoji":"http:\/\/www.example.org\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}.
 		$response_body = str_replace( addcslashes( Util::origin_url(), '/' ), addcslashes( $destination_url, '/' ), $response_body );
 
 		$response_body = apply_filters( 'simply_static_force_replaced_urls_body', $response_body, $this->static_page );

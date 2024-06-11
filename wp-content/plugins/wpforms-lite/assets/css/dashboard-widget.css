@@ -25,20 +25,29 @@
   margin-top: 12px;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-block:first-child {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-block:first-child {
   padding: 0;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-block:first-child h3 {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-block:first-child
+  h3 {
   margin-top: 0;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-block:first-child .wpforms-dash-widget-settings {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-block:first-child
+  .wpforms-dash-widget-settings {
   display: inline-block;
   float: right;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-block.wpforms-dash-widget-block-title {
+.wpforms-dash-widget
+  .wpforms-dash-widget-block.wpforms-dash-widget-block-title {
   background-color: #fafafa;
   margin-top: 0;
   margin-bottom: -13px;
@@ -71,52 +80,86 @@
   display: none;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings #wpforms-dash-widget-timespan {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  #wpforms-dash-widget-timespan {
   color: #3c434a;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings #wpforms-dash-widget-timespan:hover {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  #wpforms-dash-widget-timespan:hover {
   color: #2271b1;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container {
   display: inline-block;
   position: relative;
   vertical-align: top;
   margin-left: 7px;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container {
   margin-left: 20px;
   margin-top: 5px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-button {
   background: #fafafa;
   color: #787c82;
   border-color: currentColor;
   padding: 0 5px 0 6px;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-button {
   background-color: #fff;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button:hover, .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button:focus {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-button:hover,
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-button:focus {
   color: #2271b1;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button .dashicons {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-button
+  .dashicons {
   margin-top: 4px;
 }
 
 @media (max-width: 782px) {
-  .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-button .dashicons {
+  .wpforms-dash-widget
+    .wpforms-dash-widget-settings
+    .wpforms-dash-widget-settings-container
+    .wpforms-dash-widget-settings-button
+    .dashicons {
     margin-top: 9px;
   }
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu {
   top: auto;
   bottom: 40px;
   display: none;
@@ -130,23 +173,45 @@
   right: 0;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu.disabled * {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu.disabled
+  * {
   cursor: not-allowed;
 }
 
-#wpforms-entries-list .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu, .postbox:first-child .wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu {
+#wpforms-entries-list
+  .wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu,
+.postbox:first-child
+  .wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu {
   top: 40px;
   bottom: auto;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu .wpforms-dash-widget-settings-menu-wrap {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu
+  .wpforms-dash-widget-settings-menu-wrap {
   border-bottom: 1px solid #eee;
   line-height: 2.4;
   font-size: 13px;
   padding-bottom: 5px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu .wpforms-dash-widget-settings-menu-wrap h4 {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu
+  .wpforms-dash-widget-settings-menu-wrap
+  h4 {
   text-transform: uppercase !important;
   color: #3c434a !important;
   font-size: 11px !important;
@@ -155,16 +220,30 @@
   margin: 0;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu .wpforms-dash-widget-settings-menu-wrap.color-scheme h4 {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu
+  .wpforms-dash-widget-settings-menu-wrap.color-scheme
+  h4 {
   margin-top: 10px !important;
   margin-bottom: 5px !important;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu .wpforms-dash-widget-settings-menu-wrap div {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu
+  .wpforms-dash-widget-settings-menu-wrap
+  div {
   line-height: 1.9;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu button {
+.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu
+  button {
   margin-top: 10px;
 }
 
@@ -179,15 +258,29 @@
   margin: 0 -12px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table tr.wpforms-dash-widget-form-active td .wpforms-dash-widget-single-chart-btn {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  tr.wpforms-dash-widget-form-active
+  td
+  .wpforms-dash-widget-single-chart-btn {
   display: none;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table tr.wpforms-dash-widget-form-active td #wpforms-dash-widget-reset-chart {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  tr.wpforms-dash-widget-form-active
+  td
+  #wpforms-dash-widget-reset-chart {
   display: block;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table tr.wpforms-dash-widget-form-active td:nth-child(1) {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  tr.wpforms-dash-widget-form-active
+  td:nth-child(1) {
   border-left: 3px solid #2271b1;
   font-weight: 600;
   padding-left: 9px;
@@ -200,23 +293,38 @@
   font-size: 14px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table td:not(:first-child) {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  td:not(:first-child) {
   text-align: right;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table td a.entry-list-link {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  td
+  a.entry-list-link {
   text-decoration: none;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block table td a.entry-list-link:hover {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  table
+  td
+  a.entry-list-link:hover {
   color: #003d7e;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block .wpforms-dash-widget-forms-list-hidden-el {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  .wpforms-dash-widget-forms-list-hidden-el {
   display: none;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block .wpforms-dash-widget-forms-more {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  .wpforms-dash-widget-forms-more {
   background: #fff;
   display: block;
   margin: 0 -12px;
@@ -231,15 +339,23 @@
   font-weight: 600;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block .wpforms-dash-widget-forms-more:hover {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  .wpforms-dash-widget-forms-more:hover {
   color: #0073aa;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block .wpforms-dash-widget-forms-more:hover .dashicons {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  .wpforms-dash-widget-forms-more:hover
+  .dashicons {
   color: #0073aa;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-forms-list-block .wpforms-dash-widget-forms-more .dashicons {
+.wpforms-dash-widget
+  .wpforms-dash-widget-forms-list-block
+  .wpforms-dash-widget-forms-more
+  .dashicons {
   float: right;
   color: #72777c;
 }
@@ -263,7 +379,9 @@
   margin: 0 3px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-recommended-plugin-block .sep-vertical {
+.wpforms-dash-widget
+  .wpforms-dash-widget-recommended-plugin-block
+  .sep-vertical {
   color: #dddde0;
 }
 
@@ -271,7 +389,9 @@
   margin: 0;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-recommended-plugin-block .action-links {
+.wpforms-dash-widget
+  .wpforms-dash-widget-recommended-plugin-block
+  .action-links {
   display: inline-block;
 }
 
@@ -326,12 +446,44 @@
   border-bottom: 1px solid #f3f3f3;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(100%, white)
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
 }
 
 .wpforms-dash-widget .wpforms-error-no-data-chart .wpforms-dash-widget-modal {
@@ -347,7 +499,10 @@
   width: 20em;
 }
 
-.wpforms-dash-widget .wpforms-error-no-data-chart .wpforms-dash-widget-modal h2 {
+.wpforms-dash-widget
+  .wpforms-error-no-data-chart
+  .wpforms-dash-widget-modal
+  h2 {
   padding: 0;
   margin-bottom: 5px;
   font-size: 18px;
@@ -367,7 +522,9 @@
   text-align: center;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-block-no-forms .wpforms-dash-widget-block-sullie-logo {
+.wpforms-dash-widget
+  .wpforms-dash-widget-block-no-forms
+  .wpforms-dash-widget-block-sullie-logo {
   width: 85px;
 }
 
@@ -383,7 +540,9 @@
   margin-bottom: 20px;
 }
 
-.wpforms-dash-widget .wpforms-dash-widget-block-no-forms a.button:first-of-type:not(:only-of-type) {
+.wpforms-dash-widget
+  .wpforms-dash-widget-block-no-forms
+  a.button:first-of-type:not(:only-of-type) {
   margin-right: 9px;
 }
 
@@ -410,15 +569,50 @@
   border-bottom: 1px solid #f3f3f3;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(100%, white)
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-modal .wpforms-dash-widget-dismiss-chart-upgrade {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-modal
+  .wpforms-dash-widget-dismiss-chart-upgrade {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -428,7 +622,11 @@
   text-decoration: none;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-modal .wpforms-dash-widget-dismiss-chart-upgrade .dashicons {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-modal
+  .wpforms-dash-widget-dismiss-chart-upgrade
+  .dashicons {
   width: 16px;
   height: 17px;
   font-style: normal;
@@ -437,25 +635,36 @@
   line-height: 17px;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-modal h2 {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-modal
+  h2 {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
   color: #3c434a;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-modal p {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-modal
+  p {
   margin: 0 0 15px 0;
   color: #787c82;
   font-size: 14px;
   line-height: 18px;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-modal p:last-child {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-modal
+  p:last-child {
   margin-bottom: 0;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-upgrade-btn {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-upgrade-btn {
   background: #e27730;
   border-radius: 3px;
   color: #fff;
@@ -465,27 +674,41 @@
   font-weight: 600;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-upgrade-btn:hover, .wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-upgrade-btn:focus {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-upgrade-btn:hover,
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-upgrade-btn:focus {
   background-color: #b85a1b;
   color: #fff;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-upgrade-btn:focus {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-upgrade-btn:focus {
   box-shadow: 0 0 0 1px #fff, 0 0 0 3px #b85a1b;
   outline: 0;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-site-link {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-site-link {
   color: #e27730;
   display: inline-block;
   margin-bottom: 10px;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-block-upgrade .wpforms-dash-widget-site-link:hover {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-block-upgrade
+  .wpforms-dash-widget-site-link:hover {
   color: #b85a1b;
 }
 
-.wpforms-dash-widget.wpforms-lite .wpforms-dash-widget-forms-list-block table td {
+.wpforms-dash-widget.wpforms-lite
+  .wpforms-dash-widget-forms-list-block
+  table
+  td {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -510,12 +733,18 @@
   margin-top: 1px;
 }
 
-.wpforms-dash-widget.wpforms-pro .wpforms-dash-widget-forms-list-block table td.graph {
+.wpforms-dash-widget.wpforms-pro
+  .wpforms-dash-widget-forms-list-block
+  table
+  td.graph {
   padding: 10px 0;
   width: 40px;
 }
 
-.wpforms-dash-widget.wpforms-pro .wpforms-dash-widget-forms-list-block table button {
+.wpforms-dash-widget.wpforms-pro
+  .wpforms-dash-widget-forms-list-block
+  table
+  button {
   cursor: pointer;
   height: 24px;
   width: 33px;
@@ -524,20 +753,29 @@
   margin: 0 12px;
 }
 
-.wpforms-dash-widget.wpforms-pro .wpforms-dash-widget-forms-list-block table button.chart {
+.wpforms-dash-widget.wpforms-pro
+  .wpforms-dash-widget-forms-list-block
+  table
+  button.chart {
   background-color: white;
   color: #a7acb1;
   border: 1px solid #a0a5aa;
   border-radius: 3px;
-  transition: border .1s ease-in;
+  transition: border 0.1s ease-in;
 }
 
-.wpforms-dash-widget.wpforms-pro .wpforms-dash-widget-forms-list-block table button.chart:hover {
+.wpforms-dash-widget.wpforms-pro
+  .wpforms-dash-widget-forms-list-block
+  table
+  button.chart:hover {
   border: 1px solid currentColor;
   color: #2271b1;
 }
 
-.wpforms-dash-widget.wpforms-pro .wpforms-dash-widget-forms-list-block table button:hover {
+.wpforms-dash-widget.wpforms-pro
+  .wpforms-dash-widget-forms-list-block
+  table
+  button:hover {
   border-color: #666;
 }
 
@@ -548,7 +786,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #fff url(/wp-includes/images/spinner.gif) no-repeat center calc(50% - 12px);
+  background: #fff url(/wordpress/wp-includes/images/spinner.gif) no-repeat
+    center calc(50% - 12px);
   z-index: 10;
 }
 
@@ -561,18 +800,52 @@
   z-index: 10;
   height: 300px;
   background: rgba(255, 255, 255, 0);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(100%, white)
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
 }
 
-.wpforms-dash-widget.wpforms-pro #wpforms-dash-widget-lite-connect .wpforms-dash-widget-modal {
+.wpforms-dash-widget.wpforms-pro
+  #wpforms-dash-widget-lite-connect
+  .wpforms-dash-widget-modal {
   border-radius: 6px;
   padding: 30px;
-  min-width: calc( 100% - 200px);
+  min-width: calc(100% - 200px);
   top: 50%;
 }
 
@@ -597,7 +870,9 @@
   margin: 0;
 }
 
-.wpforms-dash-widget.wpforms-pro #wpforms-dash-widget-lite-connect .wpforms-btn {
+.wpforms-dash-widget.wpforms-pro
+  #wpforms-dash-widget-lite-connect
+  .wpforms-btn {
   background: #e27730;
   border-radius: 3px;
   color: #ffffff;
@@ -610,7 +885,9 @@
   margin-top: 15px;
 }
 
-.wpforms-dash-widget.wpforms-pro #wpforms-dash-widget-lite-connect .wpforms-btn:hover {
+.wpforms-dash-widget.wpforms-pro
+  #wpforms-dash-widget-lite-connect
+  .wpforms-btn:hover {
   background: #cd6622;
 }
 
@@ -618,7 +895,10 @@
   display: none !important;
 }
 
-.wpforms-dash-widget-no-graph.wpforms-dash-widget .wpforms-dash-widget-settings .wpforms-dash-widget-settings-container .wpforms-dash-widget-settings-menu {
+.wpforms-dash-widget-no-graph.wpforms-dash-widget
+  .wpforms-dash-widget-settings
+  .wpforms-dash-widget-settings-container
+  .wpforms-dash-widget-settings-menu {
   top: 40px;
   bottom: auto;
 }

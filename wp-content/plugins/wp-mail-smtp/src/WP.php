@@ -259,7 +259,7 @@ class WP {
 	 *
 	 * This is the same code as used in WP core for getting the default email address.
 	 *
-	 * @see https://github.com/WordPress/WordPress/blob/master/wp-includes/pluggable.php#L332
+	 * @see https://github.com/WordPress/WordPress/blob/master/wordpress/wp-includes/pluggable.php#L332
 	 *
 	 * @since 2.2.0
 	 * @since 2.3.0 In WP 5.5 the core code changed and is now using `network_home_url`.

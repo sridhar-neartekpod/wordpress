@@ -2319,8 +2319,8 @@ msgstr "Du wirst weitergeleitet auf %s"
 #~ msgid ".jpg"
 #~ msgstr ".jpg"
 
-#~ msgid "/wp-content/uploads/image.jpg"
-#~ msgstr "/wp-content/uploads/image.jpg"
+#~ msgid "/wordpress/wp-content/uploads/image.jpg"
+#~ msgstr "/wordpress/wp-content/uploads/image.jpg"
 
 #, php-format
 #~ msgid "Default: <code>%s</code>"

@@ -76,7 +76,7 @@ class Plugin extends AjaxBase {
 	}
 
 	/**
-	 * Get the status of file system permission of "/wp-content/uploads" directory.
+	 * Get the status of file system permission of "/wordpress/wp-content/uploads" directory.
 	 *
 	 * @return void
 	 */

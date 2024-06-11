@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: Ionicons;
-  src: url(/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.eot?v=2.0.0);
-  src: url(/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.eot?v=2.0.0#iefix)
+  src: url(http://localhost/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.eot?v=2.0.0);
+  src: url(http://localhost/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.eot?v=2.0.0#iefix)
       format("embedded-opentype"),
-    url(/wordpress/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.woff?v=2.0.0)
+    url(http://localhost/wordpress/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.woff?v=2.0.0)
       format("woff"),
-    url(/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.ttf?v=2.0.0)
+    url(http://localhost/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.ttf?v=2.0.0)
       format("truetype"),
-    url(/wordpress/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.svg?v=2.0.0#Ionicons)
+    url(http://localhost/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/font/ionicons.svg?v=2.0.0#Ionicons)
       format("svg");
   font-display: swap;
   font-weight: 400;

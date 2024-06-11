@@ -78,7 +78,7 @@ class Elementor_Integration extends Integration {
 		$string = preg_replace( '/(https?:)?\/\/' . addcslashes( Util::origin_host(), '/' ) . '/i', $destination_url, $string );
 
 		// replace wp_json_encode'd urls, as used by WP's `concatemoji`.
-		// e.g. {"concatemoji":"http:\/\/www.example.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}.
+		// e.g. {"concatemoji":"http:\/\/www.example.org\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}.
 		$string = str_replace( addcslashes( Util::origin_url(), '/' ), addcslashes( $destination_url, '/' ), $string );
 
 

@@ -48,7 +48,7 @@ function wp_get_global_settings( $path = array(), $context = array() ) {
 
 	/*
 	 * By using the 'theme_json' group, this data is marked to be non-persistent across requests.
-	 * See `wp_cache_add_non_persistent_groups` in src/wp-includes/load.php and other places.
+	 * See `wp_cache_add_non_persistent_groups` in src/wordpress/wp-includes/load.php and other places.
 	 *
 	 * The rationale for this is to make sure derived data from theme.json
 	 * is always fresh from the potential modifications done via hooks
